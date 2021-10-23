@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ProjectAndroid/UTS/FIXXXX KUMPUL/UTS_PBP_E_Kelompok_3/easy_learning/app/src/main/res/layout/activity_class.xml" value="0.1" />
+        <entry key="..\:/ProjectAndroid/UTS/FIXXXX KUMPUL/UTS_PBP_E_Kelompok_3/easy_learning/app/src/main/res/layout/activity_location.xml" value="0.1" />
+        <entry key="..\:/ProjectAndroid/UTS/FIXXXX KUMPUL/UTS_PBP_E_Kelompok_3/easy_learning/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/ProjectAndroid/UTS/FIXXXX KUMPUL/UTS_PBP_E_Kelompok_3/easy_learning/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/ProjectAndroid/UTS/FIXXXX KUMPUL/UTS_PBP_E_Kelompok_3/easy_learning/app/src/main/res/layout/activity_order.xml" value="0.1" />
+        <entry key="..\:/ProjectAndroid/UTS/FIXXXX KUMPUL/UTS_PBP_E_Kelompok_3/easy_learning/app/src/main/res/layout/activity_payment.xml" value="0.1" />
+        <entry key="..\:/ProjectAndroid/UTS/FIXXXX KUMPUL/UTS_PBP_E_Kelompok_3/easy_learning/app/src/main/res/layout/activity_sd.xml" value="0.1" />
+        <entry key="..\:/ProjectAndroid/UTS/FIXXXX KUMPUL/UTS_PBP_E_Kelompok_3/easy_learning/app/src/main/res/layout/activity_signup.xml" value="0.1" />
+        <entry key="..\:/ProjectAndroid/UTS/FIXXXX KUMPUL/UTS_PBP_E_Kelompok_3/easy_learning/app/src/main/res/layout/activity_sma.xml" value="0.1" />
+        <entry key="..\:/ProjectAndroid/UTS/FIXXXX KUMPUL/UTS_PBP_E_Kelompok_3/easy_learning/app/src/main/res/layout/activity_smk.xml" value="0.1" />
+        <entry key="..\:/ProjectAndroid/UTS/FIXXXX KUMPUL/UTS_PBP_E_Kelompok_3/easy_learning/app/src/main/res/layout/activity_smp.xml" value="0.1" />
+        <entry key="..\:/ProjectAndroid/UTS/FIXXXX KUMPUL/UTS_PBP_E_Kelompok_3/easy_learning/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/ProjectAndroid/UTS/FIXXXX KUMPUL/UTS_PBP_E_Kelompok_3/easy_learning/app/src/main/res/layout/activity_success.xml" value="0.1" />
+        <entry key="..\:/ProjectAndroid/UTS/FIXXXX KUMPUL/UTS_PBP_E_Kelompok_3/easy_learning/app/src/main/res/layout/class_item.xml" value="0.1" />
+        <entry key="..\:/ProjectAndroid/UTS/FIXXXX KUMPUL/UTS_PBP_E_Kelompok_3/easy_learning/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/ProjectAndroid/UTS/FIXXXX KUMPUL/UTS_PBP_E_Kelompok_3/easy_learning/app/src/main/res/layout/fragment_user.xml" value="0.1" />
+        <entry key="..\:/ProjectAndroid/UTS/FIXXXX KUMPUL/UTS_PBP_E_Kelompok_3/easy_learning/app/src/main/res/layout/sd_item.xml" value="0.1" />
+        <entry key="..\:/ProjectAndroid/UTS/FIXXXX KUMPUL/UTS_PBP_E_Kelompok_3/easy_learning/app/src/main/res/layout/sma_item.xml" value="0.1" />
+        <entry key="..\:/ProjectAndroid/UTS/FIXXXX KUMPUL/UTS_PBP_E_Kelompok_3/easy_learning/app/src/main/res/layout/smk_item.xml" value="0.1" />
+        <entry key="..\:/ProjectAndroid/UTS/FIXXXX KUMPUL/UTS_PBP_E_Kelompok_3/easy_learning/app/src/main/res/layout/smp_item.xml" value="0.1" />
+        <entry key="..\:/ProjectAndroid/UTS/FIXXXX KUMPUL/UTS_PBP_E_Kelompok_3/easy_learning/app/src/main/res/layout/todo_item.xml" value="0.1" />
+        <entry key="..\:/ProjectAndroid/UTS/FIXXXX KUMPUL/UTS_PBP_E_Kelompok_3/easy_learning/app/src/main/res/menu/menu.xml" value="0.1" />
+        <entry key="..\:/ProjectAndroid/UTS/FIXXXX KUMPUL/UTS_PBP_E_Kelompok_3/easy_learning/app/src/main/res/menu/menu2.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

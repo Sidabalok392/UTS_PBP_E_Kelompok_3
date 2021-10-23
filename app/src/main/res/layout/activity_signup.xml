@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="signup"
+            type="com.example.easy_learning.SignupActivity" />
+    </data>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.easy_learning.SignupActivity">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            app:srcCompat="@drawable/easy_learning" />
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView2"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/nama_signup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="21dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="21dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="#000000"
+                android:ems="10"
+                android:hint="Nama"
+                android:inputType="textPersonName"
+                android:textColor="#000000"
+                android:textColorHint="#5C5C5C"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/umur_signup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="21dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="21dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="#000000"
+                android:ems="10"
+                android:hint="Umur"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textColorHint="#5C5C5C"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/alamat_signup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="21dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="21dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="#000000"
+                android:ems="10"
+                android:hint="Alamat"
+                android:inputType="textPersonName"
+                android:textColor="#000000"
+                android:textColorHint="#5C5C5C"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/email_signup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="21dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="21dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="#000000"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textEmailSubject"
+                android:textColor="#000000"
+                android:textColorHint="#5C5C5C"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/notelp_signup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="21dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="21dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="#000000"
+                android:ems="10"
+                android:hint="No telp"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textColorHint="#5C5C5C"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear1"
+            android:orientation="vertical"
+            android:paddingTop="21dp">
+
+            <EditText
+                android:id="@+id/username_signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="21dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="21dp"
+                android:layout_marginBottom="5dp"
+                android:backgroundTint="#000000"
+                android:ems="10"
+                android:hint="Username"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textColorHint="#5C5C5C"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/password_signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="21dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="21dp"
+                android:layout_marginBottom="5dp"
+                android:backgroundTint="#000000"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textColorHint="#5C5C5C"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear2"
+            android:orientation="horizontal"
+            android:paddingTop="21dp">
+
+            <Button
+                android:id="@+id/btncancel_signup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="21dp"
+                android:layout_marginEnd="41dp"
+                android:layout_weight="1"
+                android:backgroundTint="#EAE2B5"
+                android:text="Cancel"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btnsignup_signup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="41dp"
+                android:layout_marginEnd="21dp"
+                android:layout_weight="1"
+                android:backgroundTint="#0091EA"
+                android:onClick="sendOnChannel1"
+                android:text="Sign Up"
+                android:textColor="#000000" />
+        </LinearLayout>
+    </RelativeLayout>
+</layout>
