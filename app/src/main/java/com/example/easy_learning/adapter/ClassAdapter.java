@@ -45,11 +45,19 @@ public class ClassAdapter extends RecyclerView.Adapter<ClassAdapter.ViewHolder>
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         ClassTodo classTodo = classTodoList.get(position);
 
-        holder.foto_class.setImageResource(Integer.parseInt(classTodo.getGambarpelajaran()));
-        holder.tvnama_class.setText(classTodo.getNamapelajaran());
-        holder.etmodul_class.setText("Modul");
-        holder.etvideo_class.setText("Video");
-        holder.ettanya_class.setText("Tanya");
+        if(classTodoList.isEmpty()){ ;
+            holder.tvnama_class.setText("Belum mendapatkan modul pembelajaran");
+            holder.etmodul_class.setText("");
+            holder.etvideo_class.setText("");
+            holder.ettanya_class.setText("");
+        }else{
+            holder.foto_class.setImageResource(Integer.parseInt(classTodo.getGambarpelajaran()));
+            holder.tvnama_class.setText(classTodo.getNamapelajaran());
+            holder.etmodul_class.setText("Modul");
+            holder.etvideo_class.setText("Video");
+            holder.ettanya_class.setText("Tanya");
+        }
+
     }
 
     @Override

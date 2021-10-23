@@ -8,6 +8,7 @@ import androidx.databinding.DataBindingUtil;
 import android.app.Notification;
 import android.app.PendingIntent;
 import android.content.Intent;
+import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -74,27 +75,38 @@ public class SuccessActivity extends AppCompatActivity {
         getSupportActionBar().setTitle("Thank You");
 
         String title = "Pembelian";
-        String message = "Terimakasih Telah Membeli Kami";
+        String message = "Terimakasih! Anda berhasil mengambil Kelas Pembelajaran ini";
 
-        Intent activityIntent = new Intent(SuccessActivity.this,MainActivity.class);
-        PendingIntent contentIntent = PendingIntent.getActivity(SuccessActivity.this,
-                0,activityIntent,0);
 
         NotificationManagerCompat notificationManager = NotificationManagerCompat.from(this);
         Notification notification = new NotificationCompat.Builder(SuccessActivity.this, MyApplication.CHANNEL_1_ID)
                 .setSmallIcon(R.drawable.hi)
                 .setContentTitle(title)
-                .setContentText(message)
                 .setPriority(NotificationCompat.PRIORITY_HIGH)
                 .setCategory(NotificationCompat.CATEGORY_MESSAGE)
                 .setColor(Color.BLUE)
-                .setContentIntent(contentIntent)
                 .setAutoCancel(true)
                 .setOnlyAlertOnce(true)
-                .addAction(R.mipmap.ic_launcher,"Oke",contentIntent)
+                .setStyle(new NotificationCompat.BigTextStyle().bigText(message))
                 .build();
 
         notificationManager.notify(1,notification);
+
+        notification = new NotificationCompat.Builder(SuccessActivity.this, MyApplication.CHANNEL_1_ID)
+                .setSmallIcon(R.drawable.hi)
+                .setContentTitle(title)
+                .setPriority(NotificationCompat.PRIORITY_HIGH)
+                .setCategory(NotificationCompat.CATEGORY_MESSAGE)
+                .setColor(Color.BLUE)
+                .setAutoCancel(true)
+                .setOnlyAlertOnce(true)
+                .setStyle(new NotificationCompat.BigPictureStyle().bigPicture(BitmapFactory
+                        .decodeResource(SuccessActivity.this.getResources(),
+                        R.drawable.congrats)))
+                .build();
+
+        notificationManager.notify(2,notification);
+
 
         Button btndone_success = binding.btndoneSuccess;
         btndone_success.setOnClickListener(new View.OnClickListener() {

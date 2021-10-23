@@ -134,7 +134,7 @@ public class SignupActivity extends AppCompatActivity {
                             checkLogin();
 
                             String title = "Sign UP";
-                            String message = "SUKSES";
+                            String message = "Selamat! Anda berhasil melakukan pendaftaran";
 
                             Intent activityIntent = new Intent(SignupActivity.this,LoginActivity.class);
                             PendingIntent contentIntent = PendingIntent.getActivity(SignupActivity.this,
