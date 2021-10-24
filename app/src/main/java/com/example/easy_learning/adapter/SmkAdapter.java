@@ -51,8 +51,8 @@ public class SmkAdapter extends RecyclerView.Adapter<SmkAdapter.viewHolder> {
                 order_activity.putExtra("nama_order",username);
                 order_activity.putExtra("nama_pelajaran",holder.tvnama_pelajaran_smk.getText().toString());
                 order_activity.putExtra("deskripsi_pelajaran",listsmk.get(holder.getPosition()).getDeskripsi_SMK());
-                order_activity.putExtra("tingkat_order","Vokational Skul");
-                order_activity.putExtra("harga_order","250000");
+                order_activity.putExtra("tingkat_order","Vocational School");
+                order_activity.putExtra("harga_order","280000");
 
                 order_activity.putExtra("gambar_order",String.valueOf(listsmk.get(holder.getAdapterPosition()).getIdFoto_SMK()));
 

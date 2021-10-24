@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                         }else if(item.getItemId()==R.id.user) {
                             getSupportFragmentManager().beginTransaction()
                                     .replace(R.id.cardview,user).commit();
-                            getSupportActionBar().setTitle("User");
+                            getSupportActionBar().setTitle("Profile");
                         }return true;
                     }
                 });binding.navBottom.setSelectedItemId(R.id.home);

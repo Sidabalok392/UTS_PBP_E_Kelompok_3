@@ -17,5 +17,5 @@ public class PelajaranSMA {
 
     public static SMA Matematika = new SMA(R.drawable.math,"Matematika","Paket SMA (10-12) Reguler 1 Tahun Ajaran + BONUS +\n\n+Ribuan video pembelajaran & animasi menarik+\n+Latihan soal & video pembahasan+\n\n+[Bonus] Tanya Tutor+\n+[Bonus] Live Class+\n+[Bonus] Tryout Ujian Nasional");
 
-    public static SMA Bahasa_Indonesia = new SMA(R.drawable.bahasa,"Bahasa Indonesia","Paket SMA (10-12) Reguler 1 Tahun Ajaran + BONUS +\n\n+Ribuan video pembelajaran & animasi menarik+\n+Latihan soal & video pembahasan+\n\n+[Bonus] Tanya Tutor+\n+[Bonus] Live Class+\n+[Bonus] Tryout Ujian Nasional");
+    public static SMA Bahasa_Indonesia = new SMA(R.drawable.bahasa,"Bahasa Indonesia & Inggris","Paket SMA (10-12) Reguler 1 Tahun Ajaran + BONUS +\n\n+Ribuan video pembelajaran & animasi menarik+\n+Latihan soal & video pembahasan+\n\n+[Bonus] Tanya Tutor+\n+[Bonus] Live Class+\n+[Bonus] Tryout Ujian Nasional");
 }

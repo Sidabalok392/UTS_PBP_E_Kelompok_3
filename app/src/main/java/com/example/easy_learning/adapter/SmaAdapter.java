@@ -52,7 +52,7 @@ public class SmaAdapter extends RecyclerView.Adapter<SmaAdapter.viewHolder> {
                 order_activity.putExtra("nama_pelajaran",holder.tvnama_pelajaran_sma.getText().toString());
                 order_activity.putExtra("deskripsi_pelajaran",listsma.get(holder.getPosition()).getDeskripsi_SMA());
                 order_activity.putExtra("tingkat_order","Senior High School");
-                order_activity.putExtra("harga_order","250000");
+                order_activity.putExtra("harga_order","275000");
 
                 order_activity.putExtra("gambar_order",String.valueOf(listsma.get(holder.getAdapterPosition()).getIdFoto_SMA()));
 

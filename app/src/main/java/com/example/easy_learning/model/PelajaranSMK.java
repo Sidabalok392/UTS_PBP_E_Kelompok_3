@@ -18,5 +18,5 @@ public class PelajaranSMK {
 
     public static SMK Matematika = new SMK(R.drawable.math,"Matematika","Paket SMK (10-12) Reguler 1 Tahun Ajaran + BONUS +\n\n+Ribuan video pembelajaran & animasi menarik+\n+Latihan soal & video pembahasan+\n\n+[Bonus] Tanya Tutor+\n+[Bonus] Live Class+\n+[Bonus] Tryout Ujian Nasional");
 
-    public static SMK Bahasa_Indonesia = new SMK(R.drawable.bahasa,"Bahasa Indonesia","Paket SMK (10-12) Reguler 1 Tahun Ajaran + BONUS +\n\n+Ribuan video pembelajaran & animasi menarik+\n+Latihan soal & video pembahasan+\n\n+[Bonus] Tanya Tutor+\n+[Bonus] Live Class+\n+[Bonus] Tryout Ujian Nasional");
+    public static SMK Bahasa_Indonesia = new SMK(R.drawable.bahasa,"Bahasa Indonesia & Inggris","Paket SMK (10-12) Reguler 1 Tahun Ajaran + BONUS +\n\n+Ribuan video pembelajaran & animasi menarik+\n+Latihan soal & video pembahasan+\n\n+[Bonus] Tanya Tutor+\n+[Bonus] Live Class+\n+[Bonus] Tryout Ujian Nasional");
 }

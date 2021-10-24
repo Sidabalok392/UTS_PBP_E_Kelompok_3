@@ -52,7 +52,7 @@ public class SmpAdapter extends RecyclerView.Adapter<SmpAdapter.viewHolder> {
                 order_activity.putExtra("nama_pelajaran",holder.tvnama_pelajaran_smp.getText().toString());
                 order_activity.putExtra("deskripsi_pelajaran",listsmp.get(holder.getPosition()).getDeskripsi_SMP());
                 order_activity.putExtra("tingkat_order","Junior High School");
-                order_activity.putExtra("harga_order","250000");
+                order_activity.putExtra("harga_order","255000");
                 order_activity.putExtra("gambar_order",String.valueOf(listsmp.get(holder.getAdapterPosition()).getIdFoto_SMP()));
 
                 context.startActivity(order_activity);
